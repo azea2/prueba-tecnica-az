@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Prueba</title>
+      <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+      <div class="container ">
+        <label for="user-count" class="block mb-2 text-lg font-semibold">¿Cuántos usuarios desea listar?</label>
+        <select id="user-count" class="w-full h-10 mb-4 bg-white border rounded-md shadow-sm focus:outline-none focus:ring focus:ring-blue-400">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        
+        <div class="users">
+            <!-- Aquí se mostrarán los usuarios obtenidos de la API -->
+        </div>
+      </div>
+    <script src="script.js"></script>
+    </body>
+
+  </html>
