@@ -8,10 +8,11 @@
     </head>
 
     <body>
-      <div class="container ">
+      <!-- 1 Vista -->
+      <div id="v1" class="container" onclick="showHide()">
         <label for="user-count" class="block mb-2 text-lg font-semibold">¿Cuántos usuarios desea listar?</label>
         <select id="user-count" class="w-full h-10 mb-4 bg-white border rounded-md shadow-sm focus:outline-none focus:ring focus:ring-blue-400">
-            <option value="1">1</option>
+            <option value="1"><a href="">1</a></option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
@@ -27,6 +28,12 @@
             <!-- Aquí se mostrarán los usuarios obtenidos de la API -->
         </div>
       </div>
+
+      <!-- 2 vista -->
+      <div class="modal" id="user-modal">
+        <!-- Aquí se mostrará la información detallada del usuario -->
+      </div>
+
     <script src="script.js"></script>
     </body>
 

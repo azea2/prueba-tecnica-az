@@ -75,3 +75,20 @@ body {
     flex-direction: column;
     gap: 20px;
 }
+.submenu-item {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submenu-item:hover {
+    background-color: #f0f4f7;
+}
+
+.submenu-item.active {
+    background-color: #BFDBFE;
+}
+
+/* Estilos para el sombreado azul al hacer clic */
+.submenu-item:active {
+    background-color: #BFDBFE;
+}
